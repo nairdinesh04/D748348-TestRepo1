@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="6" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-27T10:57:14 IST" name="Loan Department" finished-at="2020-10-27T10:57:15 IST" duration-ms="65">
+    <groups>
+      <group name="Smoke">
+        <method signature="Lecture145_2.sanity()[pri:0, instance:Test.Lecture145_2@4e91d63f]" name="sanity" class="Test.Lecture145_2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2020-10-27T10:57:14 IST" name="Car loan" finished-at="2020-10-27T10:57:15 IST" duration-ms="65">
+      <class name="Test.Lecture145_1">
+        <test-method is-config="true" signature="PL()[pri:0, instance:Test.Lecture145_1@5ae50ce6]" started-at="2020-10-27T10:57:15 IST" name="PL" finished-at="2020-10-27T10:57:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PL -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:Test.Lecture145_1@5ae50ce6]" started-at="2020-10-27T10:57:15 IST" name="closeTest" finished-at="2020-10-27T10:57:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- Test.Lecture145_1 -->
+      <class name="Test.Lecture145_4">
+        <test-method is-config="true" signature="webLoginHome()[pri:0, instance:Test.Lecture145_4@2473d930]" started-at="2020-10-27T10:57:14 IST" name="webLoginHome" finished-at="2020-10-27T10:57:14 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHome -->
+        <test-method is-config="true" signature="beforeLecture145_4Methods()[pri:0, instance:Test.Lecture145_4@2473d930]" started-at="2020-10-27T10:57:15 IST" name="beforeLecture145_4Methods" finished-at="2020-10-27T10:57:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLecture145_4Methods -->
+        <test-method signature="mobileLoginHome()[pri:0, instance:Test.Lecture145_4@2473d930]" started-at="2020-10-27T10:57:15 IST" name="mobileLoginHome" finished-at="2020-10-27T10:57:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHome -->
+        <test-method signature="apiLoginHome()[pri:0, instance:Test.Lecture145_4@2473d930]" started-at="2020-10-27T10:57:15 IST" name="apiLoginHome" finished-at="2020-10-27T10:57:15 IST" depends-on-methods="Test.Lecture145_4.mobileLoginHome" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginHome -->
+        <test-method is-config="true" signature="afterLecture145_4Methods()[pri:0, instance:Test.Lecture145_4@2473d930]" started-at="2020-10-27T10:57:15 IST" name="afterLecture145_4Methods" finished-at="2020-10-27T10:57:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLecture145_4Methods -->
+      </class> <!-- Test.Lecture145_4 -->
+      <class name="Test.Lecture145_3">
+        <test-method is-config="true" signature="beforeEveryTest()[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="beforeEveryTest" finished-at="2020-10-27T10:57:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method signature="mobileLoginCar(java.lang.String, java.lang.String)[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="mobileLoginCar" data-provider="getData" finished-at="2020-10-27T10:57:15 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCar -->
+        <test-method is-config="true" signature="beforeEveryTest()[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="beforeEveryTest" finished-at="2020-10-27T10:57:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method signature="mobileLoginCar(java.lang.String, java.lang.String)[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="mobileLoginCar" data-provider="getData" finished-at="2020-10-27T10:57:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusrename]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCar -->
+        <test-method is-config="true" signature="afterEveryTest()[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="afterEveryTest" finished-at="2020-10-27T10:57:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method is-config="true" signature="afterEveryTest()[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="afterEveryTest" finished-at="2020-10-27T10:57:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method is-config="true" signature="beforeEveryTest()[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="beforeEveryTest" finished-at="2020-10-27T10:57:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTest -->
+        <test-method signature="mobileLoginCar(java.lang.String, java.lang.String)[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="mobileLoginCar" data-provider="getData" finished-at="2020-10-27T10:57:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCar -->
+        <test-method is-config="true" signature="afterEveryTest()[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="afterEveryTest" finished-at="2020-10-27T10:57:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTest -->
+        <test-method signature="webLoginCar(java.lang.String, java.lang.String)[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="webLoginCar" finished-at="2020-10-27T10:57:15 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method webLoginCar requires 2 parameters but 1 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method webLoginCar requires 2 parameters but 1 were supplied in the @Test annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:466)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:372)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCar -->
+        <test-method signature="apiLoginCar()[pri:0, instance:Test.Lecture145_3@35047d03]" started-at="2020-10-27T10:57:15 IST" name="apiLoginCar" finished-at="2020-10-27T10:57:15 IST" depends-on-methods="Test.Lecture145_3.webLoginCar" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Lecture145_3.apiLoginCar()[pri:0, instance:Test.Lecture145_3@35047d03] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Lecture145_3.apiLoginCar()[pri:0, instance:Test.Lecture145_3@35047d03] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginCar -->
+      </class> <!-- Test.Lecture145_3 -->
+    </test> <!-- Car loan -->
+    <test started-at="2020-10-27T10:57:14 IST" name="Personal Loan" finished-at="2020-10-27T10:57:15 IST" duration-ms="41">
+      <class name="Test.Lecture145_2">
+        <test-method signature="sanity()[pri:0, instance:Test.Lecture145_2@4e91d63f]" started-at="2020-10-27T10:57:15 IST" name="sanity" finished-at="2020-10-27T10:57:15 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanity -->
+      </class> <!-- Test.Lecture145_2 -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

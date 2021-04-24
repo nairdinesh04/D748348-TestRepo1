@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test thread-count="5" name="Personal Loan">
+  <classes>
+  <class name = "Test.Lecture145_1" />
+  <class name="Test.Lecture145_2"/>
+  <class name="Test.Lecture145_4"/>
+</classes>
+</test>
+
+<test name="car loan">
+<classes>
+<class name ="Test.Lecture145_3">
+<methods>
+<exclude name="mobileLoginCar"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite> <!-- Suite -->
+
+<!--<exclude name=mobile.*/> this will exclude all the methods whose name starts with "mobile" -->
